@@ -1,13 +1,13 @@
 from random import randint
-import sandbox
+
 
 if __name__ == "__main__":
+
     encore = True
     while encore:
         nbCoups = 0
         partieEnCours = True
         tirage = randint(0, 50)
-        # print(tirage)
 
         while partieEnCours:
             nbCoups += 1
@@ -27,4 +27,6 @@ if __name__ == "__main__":
         autrePartie = input("Voulez vous continuer (o/n) ?")
         if autrePartie == 'n':
             encore = False
+
+
 
